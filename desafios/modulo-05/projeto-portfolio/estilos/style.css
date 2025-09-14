@@ -1,4 +1,12 @@
+@charset "UTF-8";
 /* 
+
+   ffffff
+   99b9ff
+   000000
+   390b51
+   14130f
+
   Variáveis para cores:
   --fundo-principal
   --texto
@@ -7,3 +15,22 @@
   --destaque-inverso
   --fundo-card
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fundo-principal: #f5f5f5;
+  --texto: #222222;
+  --texto-inverso: #ffffff;
+  --destaque: #0077ff;
+  --destaque-inverso: #66bbff;
+  --fundo-card: #ffffff;
+}
+
+body {
+
+}
